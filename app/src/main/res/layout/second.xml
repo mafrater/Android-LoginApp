@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arya.m4_si3905_15_aryawirasandi.Second">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="454dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="49dp"
+        android:background="#6b6e72"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SELAMAT DATANG...!!!"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anda Berhasil Login.."
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ffff"/>
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ffff"/>
+        <Button
+            android:id="@+id/keluar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KELUAR"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
